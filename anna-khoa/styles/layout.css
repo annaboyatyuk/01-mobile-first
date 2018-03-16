@@ -1,0 +1,33 @@
+  .site-header {
+    background-color: lightyellow;
+  }
+
+  .site-header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    float: right;
+    font-size: 300%;
+  }
+
+  nav:hover .nav-ul {
+    display: block;
+  }
+
+  .heading-group-h1 {
+    margin: 0;
+    padding: 2% 2% 0% 2%;
+  }
+
+  .heading-group-h1 h1 {
+    font-size: 250%;
+    font-weight: bold;
+  }
