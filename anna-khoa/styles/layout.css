@@ -11,21 +11,28 @@
   nav {
     display: none;
   }
+.nav-ul {
+  list-style-type: none;
+  padding-left: 1%;
+}
 
+.nav-ul li {
+  text-align: left;
+  font-size: 200%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-bottom: 1px solid gray;
+}
   .hamburger {
-
+    display: flex;
+    align-items: flex-start;
     float: right;
     font-size: 300%;
   }
 
-  .hamburger:hover ~ nav {
+  .hamburger:hover  ~ nav {
     display: block;
   }
-
-  nav:hover {
-    display:block;
-  }
-
 
   .heading-group-h1 {
     margin: 0;
@@ -40,6 +47,18 @@
   @media only screen and (min-width: 640px) {
     nav {
       display: block;
+    }
+
+    .nav-ul {
+      overflow: hidden;
+    }
+
+    .nav-ul li {
+      border: none;
+      float: left;
+      margin-left: 4%;
+      padding-top: 1%;
+      padding-bottom: 1%;
     }
 
     .hamburger {
