@@ -12,8 +12,11 @@
     display: none;
   }
 
-  .hamburger {
+  ul.nav-ul a:hover {
+    color: black;
+  }
 
+  .hamburger {
     float: right;
     font-size: 300%;
   }
@@ -23,7 +26,16 @@
   }
 
   nav:hover {
-    display:block;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  nav ul {
+    list-style: none;
   }
 
 
